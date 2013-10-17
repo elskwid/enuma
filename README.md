@@ -23,6 +23,6 @@ TODO: Description
 
 ## Copyright
 
-Copyright (c) 2013 Don
+Copyright (c) 2013 Don Morrison
 
 See {file:LICENSE.txt} for details.

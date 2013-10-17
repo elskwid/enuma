@@ -5,10 +5,10 @@ require File.expand_path('../lib/enuma/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.name          = "enuma"
   gem.version       = Enuma::VERSION
-  gem.summary       = %q{TODO: Summary}
-  gem.description   = %q{TODO: Description}
+  gem.summary       = %q{Ruby enumerator thing}
+  gem.description   = %q{Ruby enumerator thing}
   gem.license       = "MIT"
-  gem.authors       = ["Don", "Morrison"]
+  gem.authors       = ["Don Morrison"]
   gem.email         = "don@elskwid.net"
   gem.homepage      = "https://github.com/elskwid/enuma#readme"
 

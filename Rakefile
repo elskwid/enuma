@@ -24,5 +24,16 @@ require 'rubygems/tasks'
 Gem::Tasks.new
 
 require 'yard'
-YARD::Rake::YardocTask.new  
+YARD::Rake::YardocTask.new
 task :doc => :yard
+
+require "rake/testtask"
+
+task default: [:test]
+
+Rake::TestTask.new(:test) do |t|
+  t.libs << "lib"
+  t.libs << "test"
+  t.pattern = "test/**/*_test.rb"
+  t.verbose = false
+end
