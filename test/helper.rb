@@ -16,9 +16,14 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 
-require 'minitest/unit'
-
-class MiniTest::Unit::TestCase
+require "simplecov"
+SimpleCov.start do
+  add_filter "/test/"
+  command_name "Minitest"
 end
 
-MiniTest::Unit.autorun
+require "minitest/autorun"
+require "minitest/pride"
+
+class Minitest::Test
+end

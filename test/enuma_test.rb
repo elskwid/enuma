@@ -1,7 +1,7 @@
 require 'helper'
 require 'enuma'
 
-class TestEnuma < MiniTest::Unit::TestCase
+class TestEnuma < Minitest::Test
 
   def test_version
     version = Enuma.const_get('VERSION')
