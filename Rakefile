@@ -1,9 +1,9 @@
 # encoding: utf-8
 
-require 'rubygems'
+require "rubygems"
 
 begin
-  require 'bundler'
+  require "bundler"
 rescue LoadError => e
   warn e.message
   warn "Run `gem install bundler` to install Bundler."
@@ -18,12 +18,12 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 
-require 'rake'
+require "rake"
 
-require 'rubygems/tasks'
+require "rubygems/tasks"
 Gem::Tasks.new
 
-require 'yard'
+require "yard"
 YARD::Rake::YardocTask.new
 task :doc => :yard
 

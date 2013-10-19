@@ -1,1 +1,1 @@
-require 'enuma/version'
+require "enuma/version"
