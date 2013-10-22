@@ -11,6 +11,8 @@ Enuma is a small Ruby library to add enum semantics to an object.
 
 ## Features
 
+An attempt has been made to collect the best bits from other Ruby enum implementations.
+
 ## Examples
 
     require 'enuma'
@@ -20,6 +22,10 @@ Enuma is a small Ruby library to add enum semantics to an object.
 ## Install
 
     $ gem install enuma
+
+## Credits
+
+(list of other enum impls)
 
 ## Copyright
 
